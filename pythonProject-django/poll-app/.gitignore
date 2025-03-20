@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+mysite/__pycache__/
+polls/__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Environments
+.venv/
+.env
+myenv/
+venv/
+env/
+ENV/
+*.log
+
+# Django specific
+*.sqlite3
+*.db
+
+# Static and media files (if managed by Django)
+/staticfiles
+/mediafiles
+
+# User-specific files
+local_settings.py
+secret_key.txt
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Packages
+node_modules/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
