@@ -20,5 +20,5 @@ $ flask --app forecast.py run --host=0.0.0.0 --port=5001
 ## Validate
 To validate the API response, use the following curl command:
 ```shell
-$ curl http://localhost:5001/forecast
+$ curl http://localhost:5001/forecast/<your_city_latitude>/<your_city_longitude>
 ```
