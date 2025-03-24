@@ -1,0 +1,39 @@
+[build-system]
+# Minimum requirements for building your package
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trailers-parking"
+version = "0.1.0"
+description = "A Python project using src/ layout."
+authors = [
+  { name="Your Name", email="you@example.com" }
+]
+readme = "README.md"
+license = { file="LICENSE" }
+# Dependencies required by your project at runtime
+dependencies = [
+  "requests>=2.20.0",
+  "pytest>=7.0.0",
+  "matplotlib>=3.7.0"
+]
+
+# Optional dependency groups (commonly, dev or test)
+[project.optional-dependencies]
+dev = [
+  "pytest>=6.0",
+]
+
+# If you want to declare scripts or console commands, you can add:
+# [project.scripts]
+# my_command = "my_project.cli:main"
+
+# Setuptools-specific configuration
+[tool.setuptools]
+package-dir = {"" = "src"}  # Tells setuptools to treat src/ as the root package directory
+
+# Control how setuptools discovers packages in src/
+[tool.setuptools.packages.find]
+where = ["src"]
+exclude = ["tests*"]  # Exclude tests folder

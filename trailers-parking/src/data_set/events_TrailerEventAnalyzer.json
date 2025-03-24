@@ -1,0 +1,23 @@
+[
+  {
+    "event_id": "E1001",
+    "yard_id": "YARD-001",
+    "event_type": "LOAD",
+    "timestamp": "2025-01-01T08:30:00",
+    "trailer_id": "TRAILER-1001"
+  },
+  {
+    "event_id": "E1002",
+    "yard_id": "YARD-001",
+    "event_type": "UNLOAD",
+    "timestamp": "2025-01-02T09:15:00",
+    "trailer_id": "TRAILER-1002"
+  },
+  {
+    "event_id": "E1003",
+    "yard_id": "YARD-002",
+    "event_type": "ENTER",
+    "timestamp": "2025-01-03T10:00:00",
+    "trailer_id": "TRAILER-1003"
+  }
+]

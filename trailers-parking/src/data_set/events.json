@@ -1,0 +1,35 @@
+[
+  {
+    "event_id": "e1",
+    "timestamp": "2024-01-01T12:00:00",
+    "yard_id": "y1",
+    "trailer_id": "t1",
+    "event_type": "arrived",
+    "parking_space": "p1"
+  },
+  {
+    "event_id": "e2",
+    "timestamp": "2024-01-01T13:00:00",
+    "yard_id": "y1",
+    "trailer_id": "t1",
+    "event_type": "departed",
+    "parking_space": "p1"
+  },
+  {
+    "event_id": "e3",
+    "timestamp": "2024-01-01T15:00:00",
+    "yard_id": "y2",
+    "trailer_id": "t1",
+    "event_type": "arrived",
+    "parking_space": "p2"
+  },
+  {
+    "event_id": "e4",
+    "timestamp": "2024-01-01T17:00:00",
+    "yard_id": "y2",
+    "trailer_id": "t1",
+    "event_type": "departed",
+    "parking_space": "p2"
+  }
+
+]
