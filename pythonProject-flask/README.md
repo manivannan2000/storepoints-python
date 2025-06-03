@@ -22,3 +22,7 @@ To validate the API response, use the following curl command:
 ```shell
 $ curl http://localhost:5001/forecast/<your_city_latitude>/<your_city_longitude>
 ```
+For the city of Fremont, CA
+```shell
+$ curl http://localhost:5001/forecast/37.558819/-121.996246
+```
