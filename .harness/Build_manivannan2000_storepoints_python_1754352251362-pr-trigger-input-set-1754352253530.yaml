@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manivannan2000_storepoints_python_1754352251362-pr-trigger-input-set
+  identifier: Build_manivannan2000_storepoints_python_1754352251362prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manivannan2000_storepoints_python_1754352251362
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
