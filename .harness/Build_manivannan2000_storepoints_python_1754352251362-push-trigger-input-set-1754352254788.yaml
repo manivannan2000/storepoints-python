@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_manivannan2000_storepoints_python_1754352251362-push-trigger-input-set
+  identifier: Build_manivannan2000_storepoints_python_1754352251362pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_manivannan2000_storepoints_python_1754352251362
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
